@@ -1,0 +1,27 @@
+{
+  "name": "lb-2-jhipster",
+  "version": "1.0.0",
+  "description": "Introspect Oracle database and generate JHipster Domain Language file.",
+  "main": "db-2-jdl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ziogiugno/lb-2-jhipster.git"
+  },
+  "keywords": [
+    "jhipster"
+  ],
+  "author": "Rolando Duma <ziogiugno@gmail.com> (http://ziogiugno.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ziogiugno/lb-2-jhipster/issues"
+  },
+  "homepage": "https://github.com/ziogiugno/lb-2-jhipster#readme",
+  "dependencies": {
+    "loopback": "^3.16.0",
+    "loopback-connector-oracle": "^3.2.0",
+    "oracledb": "^1.13.1"
+  }
+}
